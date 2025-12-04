@@ -179,6 +179,7 @@ FROM (
 ) AS sub
 GROUP BY inv_id;
 
+
 -- queries the doctors with annual salary above the overall average
 SELECT d.id AS doctor_id, 
 	CONCAT(p.first_name, ' ', p.last_name) AS doctor_name,
@@ -292,6 +293,7 @@ WHERE e.salary NOT IN (
     FROM dbo.employees e2
     WHERE e2.title LIKE '%receptionist%'
 );
+
 
 
 

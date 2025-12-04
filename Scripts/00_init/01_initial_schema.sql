@@ -1,4 +1,5 @@
 USE private_medical_clinic_db;
+GO
 
 CREATE TABLE dbo.persons (
 	ID INT IDENTITY(1,1) PRIMARY KEY,
