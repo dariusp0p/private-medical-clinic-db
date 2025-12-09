@@ -1,5 +1,4 @@
 USE private_medical_clinic_db;
-GO
 
 
 -- v1 - modifies the length of the phone field

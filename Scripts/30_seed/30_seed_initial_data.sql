@@ -1,5 +1,4 @@
 USE private_medical_clinic_db;
-GO
 
 
 -- Inserts for all tables
@@ -67,10 +66,10 @@ VALUES
 (1, N'General checkup', N'Routine annual health evaluation', N'low', N'open', SYSUTCDATETIME()),
 (2, N'Chest pain', N'Patient reports occasional chest pain during exercise', N'medium', N'open', SYSUTCDATETIME()),
 (3, N'Migraine headaches', N'Chronic headaches for the past month', N'medium', N'open', SYSUTCDATETIME()),
-(4, N'Skin irritation', N'Allergic reaction on hands', N'low', N'pending', SYSUTCDATETIME()),
+(4, N'Skin irritation', N'Allergic reaction on hands', N'low', N'closed', SYSUTCDATETIME()),
 (5, N'High blood pressure', N'Increased BP readings observed in the last week', N'high', N'open', SYSUTCDATETIME()),
 (6, N'Fatigue', N'Low energy and tiredness', N'low', N'open', SYSUTCDATETIME()),
-(7, N'Heart arrhythmia', N'Irregular heartbeat detected', N'high', N'pending', SYSUTCDATETIME()),
+(7, N'Heart arrhythmia', N'Irregular heartbeat detected', N'high', N'closed', SYSUTCDATETIME()),
 (8, N'Sore throat', N'Mild infection suspected', N'low', N'open', SYSUTCDATETIME());
 
 INSERT INTO dbo.case_doctors (case_id, doctor_id)

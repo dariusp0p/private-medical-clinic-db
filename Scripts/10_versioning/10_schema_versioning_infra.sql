@@ -1,5 +1,4 @@
 USE private_medical_clinic_db;
-GO
 
 
 -- current schema version table
